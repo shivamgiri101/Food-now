@@ -1,4 +1,5 @@
 
+
 /**
  * Wait for the DOM to be fully loaded before running any script.
  */
@@ -13,57 +14,57 @@ document.addEventListener('DOMContentLoaded', () => {
     const foodData = [
         {
             id: 1,
-            name: "Margherita Pizza",
+            name: "Pizza",
             category: "Pizza",
             price: 299,
             description: "Classic pizza with fresh mozzarella, tomatoes, and basil.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Pizza&font=inter",
-            keywords: ["pizza", "margherita", "classic", "cheese", "vegetarian", "veg"]
+            imageUrl: "https://ooni.com/cdn/shop/articles/20220211142347-margherita-9920_ba86be55-674e-4f35-8094-2067ab41a671.jpg?v=1737104576&width=1080",
+            keywords: ["pizza", "classic", "cheese", "vegetarian", "veg"]
         },
         {
             id: 2,
-            name: "Chicken Zinger Burger",
+            name: "Crispy Burger",
             category: "Burgers",
-            price: 189,
-            description: "Crispy fried chicken patty, lettuce, and spicy mayo in a toasted bun.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Chicken+Burger&font=inter",
-            keywords: ["burger", "chicken", "spicy", "fried", "zinger"]
+            price: 55,
+            description: "Crispy fried burger, lettuce, and spicy mayo in a toasted bun.",
+            imageUrl: "https://www.francoislambert.one/cdn/shop/articles/mac_poulet_corn_flakes.webp?v=1723557298",
+            keywords: ["burger", "veg", "spicy", "fried", "zinger"]
         },
         {
             id: 3,
-            name: "Hyderabadi Chicken Biryani",
-            category: "Biryani",
-            price: 349,
-            description: "Aromatic basmati rice cooked with chicken and spices. Served with raita.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Chicken+Biryani&font=inter",
-            keywords: ["biryani", "chicken", "hyderabadi", "spicy", "rice", "non-veg"]
+            name: "French Fries",
+            category: "Fries",
+            price: 79,
+            description: "Crispy, Potato fries deliciously crunchy and addictive snack.",
+            imageUrl: "https://www.simplyrecipes.com/thmb/J1VspbyJLSLXZsw7U04eIIGGXRA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Fries-LEAD-06-303e022e2c174640916eabfb2bf45f0d.jpg",
+            keywords: ["fried", "tasty", "soft", "spicy", "potato", "chilly"]
         },
         {
             id: 4,
-            name: "Paneer Butter Masala",
-            category: "Indian",
-            price: 279,
-            description: "Soft paneer cubes in a rich and creamy tomato-based gravy.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Paneer+Curry&font=inter",
-            keywords: ["indian", "paneer", "curry", "vegetarian", "veg", "creamy"]
+            name: "Chilly Potato",
+            category: "Chilly Potato",
+            price: 129,
+            description: "Crispy, golden chilly potato tossed in spicy sauce tasty, crunchy and irresistible.",
+            imageUrl: "https://static.toiimg.com/photo/52532656.cms",
+            keywords: ["fried", "tasty", "soft", "spicy", "potato", "chilly"]
         },
         {
             id: 5,
-            name: "Chocolate Lava Cake",
-            category: "Desserts",
-            price: 129,
-            description: "Rich dark chocolate cake with a molten center.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Lava+Cake&font=inter",
-            keywords: ["dessert", "chocolate", "cake", "sweet", "lava"]
+            name: "Fried Momo",
+            category: "Momo",
+            price: 149,
+            description: "Crispy fried momos filled with flavorful mixed vegetables, a perfect crunchy experience.",
+            imageUrl: "https://www.brahminsfoods.com/wp-content/uploads/2020/11/Fried-veg-Momo.jpg",
+            keywords: ["momo", "tasty", "spicy", "fried", "crunchy"]
         },
         {
             id: 6,
-            name: "Masala Chai",
-            category: "Drinks",
-            price: 69,
-            description: "Hot tea brewed with aromatic spices and milk.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Chai&font=inter",
-            keywords: ["drink", "tea", "chai", "hot", "beverage", "masala"]
+            name: "Spring Roll",
+            category: "Roll",
+            price: 59,
+            description: "Crispy veg spring rolls filled with fresh vegetables",
+            imageUrl: "https://thai-foodie.com/wp-content/uploads/2023/07/thai-egg-rolls-redo.jpg",
+            keywords: ["crunchy", "tasty", "spicy", "hot", "crispy", "masala"]
         },
         {
             id: 7,
@@ -85,12 +86,12 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 9,
-            name: "Paneer Tikka Roll",
+            name: "Dosa",
             category: "Indian",
-            price: 229,
-            description: "Spicy grilled paneer cubes wrapped in a soft roti with mint chutney.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Paneer+Roll&font=inter",
-            keywords: ["indian", "roll", "paneer", "vegetarian", "veg", "spicy", "snack"]
+            price: 99,
+            description: "A crispy South Indian dish made from fermented rice batter, served with chutney and sambar for a light, flavorful meal.",
+            imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Rameshwaram_Cafe_Dosa.jpg",
+            keywords: ["indian", "roll", "dosa", "vegetarian", "veg", "spicy", "lihgt"]
         },
         {
             id: 10,
@@ -105,19 +106,19 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 11,
             name: "Gulab Jamun (2 pcs)",
             category: "Desserts",
-            price: 89,
+            price: 79,
             description: "Soft, spongy milk-solid balls soaked in sweet sugar syrup.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Gulab+Jamun&font=inter",
+            imageUrl: "https://static.toiimg.com/thumb/63799510.cms?imgsize=1091643&width=800&height=800",
             keywords: ["dessert", "sweet", "indian", "gulab jamun"]
         },
         {
             id: 12,
-            name: "Fresh Lime Soda",
+            name: "Hot Masala Chai",
             category: "Drinks",
             price: 79,
-            description: "A refreshing (sweet/salted) drink made with fresh lime juice and soda.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Lime+Soda&font=inter",
-            keywords: ["drink", "soda", "lime", "beverage", "fresh", "cold"]
+            description: "Milk, and spices that delivers comfort, energy, and a soothing taste in every sip.",
+            imageUrl: "https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg",
+            keywords: ["tea", "masala", "ginger", "beverage", "fresh", "hot"]
         }
     ];
 
@@ -130,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
      * NEW: Gemini API Key.
      * This is left blank. The environment (like Canvas) will provide it.
      */
-    const apiKey = "";
+    const apiKey = "AIzaSyC04SUorGBWn8O4NSC76T5XRhKJ4YWX36Y";
     const geminiApiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
 
     // --- ELEMENT SELECTORS ---
