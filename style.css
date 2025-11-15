@@ -446,7 +446,7 @@ img {
     background: var(--light-grey);
     border-radius: 12px;
     margin-bottom: 3rem;
-    background-image: url(indianfood.png);    
+    background-image: url(food-now.png);    
 }
 
 #page-home .hero-title {
@@ -1272,4 +1272,5 @@ img {
         padding: 0.5rem;
     }
 }
+
 
