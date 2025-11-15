@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Crispy Burger",
             category: "Burgers",
             price: 55,
-            description: "Crispy fried burger, lettuce, and spicy mayo in a toasted bun.",
+            description: "A crispy veg patty with fresh veggies and tasty sauce inside a soft bun, giving a delicious and satisfying bite every time. ",
             imageUrl: "https://www.francoislambert.one/cdn/shop/articles/mac_poulet_corn_flakes.webp?v=1723557298",
             keywords: ["burger", "veg", "spicy", "fried", "zinger"]
         },
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 3,
             name: "French Fries",
             category: "Fries",
-            price: 79,
-            description: "Crispy, Potato fries deliciously crunchy and addictive snack.",
+            price: 49,
+            description: "Crispy, Potato fries, deliciously crunchy and addictive.",
             imageUrl: "https://www.simplyrecipes.com/thmb/J1VspbyJLSLXZsw7U04eIIGGXRA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Fries-LEAD-06-303e022e2c174640916eabfb2bf45f0d.jpg",
             keywords: ["fried", "tasty", "soft", "spicy", "potato", "chilly"]
         },
@@ -61,46 +61,46 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 6,
             name: "Spring Roll",
             category: "Roll",
-            price: 59,
-            description: "Crispy veg spring rolls filled with fresh vegetables",
+            price: 69,
+            description: "Crispy veg spring rolls filled with fresh vegetables.",
             imageUrl: "https://thai-foodie.com/wp-content/uploads/2023/07/thai-egg-rolls-redo.jpg",
             keywords: ["crunchy", "tasty", "spicy", "hot", "crispy", "masala"]
         },
         {
             id: 7,
-            name: "Veg Extravaganza Pizza",
-            category: "Pizza",
-            price: 389,
-            description: "Loaded with bell peppers, onions, olives, mushrooms, and mozzarella.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Veg+Pizza&font=inter",
-            keywords: ["pizza", "veggie", "vegetarian", "veg", "vegetables"]
+            name: "Idli Sambar",
+            category: "Idli",
+            price: 99,
+            description: "Soft, fluffy idlis served with flavorful, aromatic sambar create a light, healthy, and satisfying taste.",
+            imageUrl: "https://www.spicekitchenuk.com/cdn/shop/articles/IDLIHEALTHYBREAKFASTSTUDY1_15.jpg?v=1479206314",
+            keywords: ["tasty", "veggie", "vegetarian", "veg", "healthy"]
         },
         {
             id: 8,
-            name: "Aloo Tikki Burger",
-            category: "Burgers",
-            price: 99,
-            description: "A crispy potato patty burger with tangy sauces, onion, and tomato.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Veg+Burger&font=inter",
-            keywords: ["burger", "vegetarian", "veg", "aloo", "potato", "classic"]
-        },
-        {
-            id: 9,
             name: "Dosa",
             category: "Indian",
             price: 99,
-            description: "A crispy South Indian dish made from fermented rice batter, served with chutney and sambar for a light, flavorful meal.",
+            description: "A dish made from fermented rice batter, served with chutney and sambar for a light, flavorful meal.",
             imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Rameshwaram_Cafe_Dosa.jpg",
             keywords: ["indian", "roll", "dosa", "vegetarian", "veg", "spicy", "lihgt"]
         },
         {
-            id: 10,
-            name: "Veg Biryani",
+            id: 9,
+            name: "Veg Chaap Biryani",
             category: "Biryani",
-            price: 289,
-            description: "Aromatic basmati rice cooked with mixed vegetables and spices.",
-            imageUrl: "https://placehold.co/600x400/f28c28/ffffff?text=Veg+Biryani&font=inter",
-            keywords: ["biryani", "veg", "vegetarian", "rice"]
+            price: 89,
+            description: "Aromatic basmati rice cooked with Chaap, mixed vegetables and spices.",
+            imageUrl: "https://img-global.cpcdn.com/recipes/9fe286796c16a134/1200x630cq80/photo.jpg",
+            keywords: ["biryani", "veg", "vegetarian", "rice", "chaap"]
+        },
+        {
+            id: 10,
+            name: "Shezwan Fried Rice",
+            category: "Fried Rice",
+            price: 89,
+            description: "Flavorful stir-fried rice tossed with vegetables and spices, tasty, aromatic, and satisfying.",
+            imageUrl: "https://www.pavaniskitchen.com/wp-content/uploads/2021/08/schezwan-veg-fried-rice.jpg",
+            keywords: ["fried","rice", "veg", "vegetarian", "rice", "vegetables"]
         },
         {
             id: 11,
@@ -113,12 +113,12 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 12,
-            name: "Hot Masala Chai",
+            name: "Mango Lassi",
             category: "Drinks",
             price: 79,
-            description: "Milk, and spices that delivers comfort, energy, and a soothing taste in every sip.",
-            imageUrl: "https://masalaandchai.com/wp-content/uploads/2021/07/Masala-Chai-Featured.jpg",
-            keywords: ["tea", "masala", "ginger", "beverage", "fresh", "hot"]
+            description: "Milk, and mango that delivers comfort and a soothing taste in every sip.",
+            imageUrl: "https://palatesdesire.com/wp-content/uploads/2022/03/mango-lassi-recipe@palate-desire.jpg",
+            keywords: ["lassi", "milk", "mango", "beverage", "fresh", "refreshing"]
         }
     ];
 
