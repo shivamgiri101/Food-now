@@ -454,6 +454,7 @@ img {
     font-weight: 800;
     margin-bottom: 1rem;
     line-height: 1.2;
+    color: white;
 }
 
 #page-home .hero-subtitle {
@@ -462,7 +463,7 @@ img {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: #555;
+    color: white;
 }
 
 #page-home .hero-search {
@@ -1272,6 +1273,7 @@ img {
         padding: 0.5rem;
     }
 }
+
 
 
 
