@@ -485,6 +485,7 @@ img {
     gap: 1rem;
     padding: 1.5rem;
     text-align: center;
+    bakcground-color: rgb(250,177,42);    
 }
 
 #page-home .category-card img {
@@ -1273,6 +1274,7 @@ img {
         padding: 0.5rem;
     }
 }
+
 
 
 
